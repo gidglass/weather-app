@@ -1,0 +1,48 @@
+.current-weather {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.current-weather__icon {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.current-weather__icon img {
+  max-height: 100px;
+  max-width: 100px;
+}
+
+.current-weather__description {
+  flex: 2 2 auto;
+}
+
+.current-weather__temp {
+  flex: 1 1 auto;
+}
+
+.forecast {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.daily-forecast {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
